@@ -1,0 +1,11 @@
+syntax = "proto3";
+package message;
+
+option java_package = "com.skt.ames.rfd.message";
+option java_outer_classname = "SampleProtos";
+
+message Sample {
+    string sample1 = 1;
+    int32 sample2 = 2;
+    string sample3 = 3;
+}

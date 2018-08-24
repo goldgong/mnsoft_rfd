@@ -1,0 +1,154 @@
+syntax = "proto3";
+package rfd;
+
+option java_package = "com.mnsoft.mac.rfd.protobuff";
+option java_outer_classname = "RFDProto20180601_2";
+
+message SendData {
+	VehicleInfo vehicleInfo = 1;    //차량정보
+	CameraInfo cameraInfo =2;       //카메라정보
+	repeated RFD rfd =3;            //RFD정보
+}
+
+message RFD {
+	GPSInfo gps = 1;                //gps정보
+	repeated Lane lane = 2;         //차선정보
+	repeated RoadMark rm = 3;       //도로노면마크
+	repeated RoadSign rs = 4;       //도로이정표
+	repeated TrafficSign ts = 5;    //교통표지판
+	repeated TrafficLight tl = 6;   //교통신호등
+}
+
+message VehicleInfo {
+	int32 vehicleId = 1;            //차량ID
+	int32 length = 2;               //차량 길이 정보
+	int32 height = 3;               //차량 높이 정보
+	int32 width = 4;                //차량 넓이 정보
+}
+
+message CameraInfo {
+  enum Type {
+    CM_000 = 0;                   //미정의
+    CM_001 = 1;                   //EPM3.5
+    CM_002 = 2;                   //HMNS
+  }
+  Type type = 1;                  //카메라 타입
+  int32 x = 2;                    //카메라 설치 X좌표 정보
+  int32 y = 3;                    //카메라 설치 Y좌표 정보
+  int32 z = 4;                    //카메라 설치 Z좌표 정보
+}
+
+message GPSInfo {
+	int64 time = 1;                 //timestamp
+	double lat = 2;                 //위도(degree*360,000)
+	double lon = 3;                 //경도(degree*360,000)
+	sint32 alt = 4;                 //고도(단위 cm)
+	sint32 heading = 5;             //degree Scale*10
+	int32 speed = 6;                //속도*10
+	int32 driveLane = 7;            //주행차로
+}
+
+message Lane {
+	enum LaneType {
+		LN_000 = 0;                   //겹선(double line)
+		LN_001 = 1;                   //실선(solid line)
+		LN_002 = 2;                   //점선(dotted line)
+		LN_005 = 5;                   //유도선(lead line)
+		LN_006 = 6;                   //U턴선(UTurn line)
+		LN_007 = 7;                   //지그재그선(zigzag line)
+		LN_008 = 8;                   //중앙선(center line)
+		LN_009 = 9;                   //연석(cure)
+		LN_010 = 10;                  //중앙분리대(median)
+		LN_011 = 11;                  //방음벽(soundproof wall)
+		LN_012 = 12;                  //터널램프(tunnel lamp)  
+		LN_013 = 13;                  //중앙분리대가드레일(Barrier)
+		LN_255 = 255;                 //미정의
+	}
+	LaneType type = 1;              //차선 타입
+	enum LaneColor {
+		LC_000 = 0;                   //흰색
+		LC_001 = 1;                   //황색
+		LC_002 = 2;                   //파란색	
+		LC_255 = 255;                 //미정의
+	}
+	LaneColor color = 2;            //차선 색상
+	int32 pos = 3;                  //차선까지의 거리(단위 cm)
+}
+
+message RoadMark {
+	enum Type {
+		RM_000 = 0;                   //직진(go straight)
+		RM_001 = 1;                   //좌회전(turn left)
+		RM_002 = 2;                   //우회전(turn Right)
+		RM_003 = 3;                   //직진 좌회전(go straight and turn left)
+		RM_004 = 4;                   //직진 우회전(go straight and turn Right)
+		RM_005 = 5;                   //유턴(uturn)
+		RM_006 = 6;                   //유턴 직진(uturn and go straight)
+		RM_007 = 7;                   //유턴 좌회전(uturn and turn left)
+		RM_008 = 8;                   //좌회전 금지(turn left(X))
+		RM_009 = 9;                   //우회전 금지(turn Right(X))
+		RM_010 = 10;                  //직진금지(go straight(X))
+		RM_011 = 11;                  //유턴금지(uturn(X))
+		RM_012 = 12;                  //횡단보도(crosswalk)
+		RM_013 = 13;                  //횡단보고 금지(crosswalk warning)
+		RM_014 = 14;                  //과속방지턱(speed bump)
+		RM_015 = 15;                  //숫자(number)
+		RM_016 = 16;                  //문자(character)
+		RM_017 = 17;                  //도형(figure)
+		RM_018 = 18;				          //정지선(stop line)
+		RM_255 = 255;                 //미정의
+	}
+	Type type = 1;                  //노면마크 타입
+	int32 x = 2;                    //노면마크까지 횡방향 거리(단위 cm)
+	int32 y = 3;                    //노면마크까지 종방향 거리(단위 cm)
+	int32 width = 4;                //노면마크 가로 길이(cm)
+	int32 height = 5;               //노면마크 세로 길이(cm)
+}
+
+message RoadSign {
+  enum Type {
+    RS_000 = 0;                   //방향표지
+    RS_001 = 1;                   //방향예고 표지
+    RS_002 = 2;                   //편지식
+    RS_003 = 3;                   //문형식
+    RS_255 = 255;                 //미정의
+  }
+  Type type = 1;
+  int32 x = 2;                    //이정표까지 횡방향 거리(단위 cm)
+	int32 y = 3;                    //이정표까지 종방향 거리(단위 cm)
+	int32 width = 4;                //이정표 가로 길이(cm)
+	int32 height = 5;               //이정표 세로 길이(cm)
+}
+
+message TrafficSign {
+	enum Type {
+		TS_000 = 0;                   //규제표시(regulation sign)
+		TS_001 = 1;                   //주위표시(warring sign)
+		TS_002 = 2;                   //지시표시(indication sign)
+		TS_003 = 3;                   //보조표시(assistance sign)
+		TS_004 = 4;                   //최고속도 제한
+		TS_005 = 5;                   //최저속도 제한
+		TS_255 = 255;                 //미정의
+	}
+	Type type = 1;                  //교통표지판 타입
+	int32 x = 2;                    //교통표지판까지 횡방향 거리(단위 cm)
+	int32 y = 3;                    //교통표지판까지 종방향 거리(단위 cm)
+	int32 width = 4;                //교통표지판 가로 길이(cm)
+	int32 height = 5;               //교통표지판 세로 길이(cm)
+}
+
+message TrafficLight {
+	enum Type {
+		TL_000 = 0;                   //횡형 이색등
+		TL_001 = 1;                   //횡형 삼색등
+		TL_002 = 2;                   //횡형 사색등
+		TL_003 = 3;                   //종형 이색등
+		TL_004 = 4;                   //종형 삼색등
+		TL_255 = 255;                 //미정의
+	}
+	Type type = 1;                  //신호등 타입
+	int32 x = 2;                    //신호등까지 횡방향 거리(단위 cm)
+	int32 y = 3;                    //신호등까지 종방향 거리(단위 cm)
+	int32 width = 4;                //신호등까지 가로 길이(cm)
+	int32 height = 5;               //신호등까지 세로 길이(cm)
+}

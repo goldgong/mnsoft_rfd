@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mnsoft.mac</groupId>
+    <artifactId>rfd</artifactId>
+	<packaging>pom</packaging>
+    <version>0.1</version>
+
+	<name>MNSOFT RFD Application</name>
+	<url></url>
+	<description></description>
+
+	<modules>
+		<module>app</module>
+		<module>common</module>
+		<module>sinker</module>
+	</modules>
+
+    <properties>
+        <maven.test.skip>true</maven.test.skip>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk.version>1.8</jdk.version>
+        <junit.version>4.10</junit.version>
+
+		<commons-lang3.version>3.7</commons-lang3.version>
+		<slf4j-api.version>1.7.25</slf4j-api.version>
+		<protobuf.version>3.5.1</protobuf.version>
+		<kafka_2.11.version>1.1.0</kafka_2.11.version>
+		<zookeeper.version>3.4.12</zookeeper.version>
+		<spark-2.11.version>2.3.1</spark-2.11.version>
+		<jackson.version>2.8.9</jackson.version>
+		<lettuce-core.version>5.0.5.RELEASE</lettuce-core.version>
+		<typesafe-config.version>1.3.3</typesafe-config.version>
+
+		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+		<maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
+		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+		<maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
+		<protobuf-maven-plugin.version>0.5.1</protobuf-maven-plugin.version>
+		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
+		<maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
+		<maven-assembly-plugin>3.1.0</maven-assembly-plugin>
+
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>http://central.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>cloudera-repos</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+        </repository>
+        <repository>
+            <id>hortonworks Repository</id>
+            <url>http://repo.hortonworks.com/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-lang3</artifactId>
+				<version>${commons-lang3.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j-api.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.google.protobuf</groupId>
+				<artifactId>protobuf-java</artifactId>
+				<version>${protobuf.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.protobuf</groupId>
+				<artifactId>protobuf-java-util</artifactId>
+				<version>${protobuf.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka_2.11</artifactId>
+				<version>${kafka_2.11.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka-clients</artifactId>
+				<version>${kafka_2.11.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.kafka</groupId>
+				<artifactId>kafka-streams</artifactId>
+				<version>${kafka_2.11.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>${zookeeper.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-core_2.11</artifactId>
+				<version>${spark-2.11.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-sql_2.11</artifactId>
+				<version>${spark-2.11.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-streaming_2.11</artifactId>
+				<version>${spark-2.11.version}</version>
+			</dependency>
+			<!-- dstream for kafka -->
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
+				<version>${spark-2.11.version}</version>
+			</dependency>
+			<!-- structured stream for kafka -->
+			<dependency>
+				<groupId>org.apache.spark</groupId>
+				<artifactId>spark-sql-kafka-0-10_2.11</artifactId>
+				<version>${spark-2.11.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-core</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.module</groupId>
+				<artifactId>jackson-module-scala_2.11</artifactId>
+				<version>${jackson.version}</version>
+			</dependency>
+
+			<!-- redis client -->
+			<dependency>
+				<groupId>io.lettuce</groupId>
+				<artifactId>lettuce-core</artifactId>
+				<version>${lettuce-core.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.mnsoft.mac</groupId>
+				<artifactId>common</artifactId>
+				<version>0.1</version>
+			</dependency>
+
+			<!-- config -->
+			<dependency>
+				<groupId>com.typesafe</groupId>
+				<artifactId>config</artifactId>
+				<version>${typesafe-config.version}</version>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+    <build>
+		<extensions>
+			<extension>
+				<groupId>kr.motd.maven</groupId>
+				<artifactId>os-maven-plugin</artifactId>
+				<version>1.5.0.Final</version>
+			</extension>
+		</extensions>
+		<pluginManagement>
+			<plugins>
+				<!-- The Resources Plugin handles the copying of project resources to the output directory -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${maven-resources-plugin.version}</version>
+				</plugin>
+				<!-- The Maven Source Plugin creates a JAR archive of the source files of the current project. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<version>${maven-source-plugin.version}</version>
+				</plugin>
+				<!-- Builds a Java Archive (JAR) file from the compiled project classes and resources. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>${maven-jar-plugin.version}</version>
+				</plugin>
+				<!-- The Compiler Plugin is used to compile the sources of your project. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${maven-compiler-plugin.version}</version>
+					<configuration>
+						<source>${jdk.version}</source>
+						<target>${jdk.version}</target>
+						<encoding>${project.build.sourceEncoding}</encoding>
+					</configuration>
+				</plugin>
+				<!-- Maven Plugin that executes the Protocol Buffers (protoc) compiler -->
+				<plugin>
+					<groupId>org.xolstice.maven.plugins</groupId>
+					<artifactId>protobuf-maven-plugin</artifactId>
+					<version>${protobuf-maven-plugin.version}</version>
+				</plugin>
+				<!-- This plugin contains various small independent goals to assist with Maven build lifecycle
+				    build-helper:add-source Add more source directories to the POM.
+					build-helper:add-test-source Add test source directories to the POM.
+					build-helper:add-resource Add more resource directories to the POM.
+					build-helper:add-test-resource Add test resource directories to the POM.
+					build-helper:attach-artifact Attach additional artifacts to be installed and deployed.
+					build-helper:maven-version Set a property containing the current version of maven.
+					build-helper:regex-property Sets a property by applying a regex replacement rule to a supplied value.
+					build-helper:regex-properties Sets a property by applying a regex replacement rule to a supplied value.
+					build-helper:released-version Resolve the latest released version of this project.
+					build-helper:parse-version Parse the version into different properties.
+					build-helper:remove-project-artifact Remove project's artifacts from local repository.
+					build-helper:reserve-network-port Reserve a list of random and unused network ports.
+					build-helper:local-ip Retrieve current host IP address.
+					build-helper:cpu-count Retrieve number of available CPU.
+					build-helper:timestamp-property Sets a property based on the current date and time.
+					build-helper:uptodate-property Sets a property according to whether a file set's outputs are up to date with respect to its inputs.
+					build-helper:uptodate-properties Sets multiple properties according to whether multiple file sets' outputs are up to date with respect to their inputs.
+					build-helper:rootlocation Sets a property which defines the root folder of a multi module build.
+				-->
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>build-helper-maven-plugin</artifactId>
+					<version>3.0</version>
+					<executions>
+						<execution>
+							<id>add-source</id>
+							<phase>generate-sources</phase>
+							<goals>
+								<goal>add-source</goal>
+							</goals>
+							<configuration>
+								<sources>
+									<source>${basedir}/target/generated-sources</source>
+								</sources>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+				<!-- Maven Surefire MOJO in maven-surefire-plugin. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${maven-surefire-plugin.version}</version>
+					<configuration>
+						<skipTests>true</skipTests>
+					</configuration>
+				</plugin>
+				<!-- Provides utility goals to work with dependencies like copying, unpacking, analyzing, resolving and many more. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<version>${maven-dependency-plugin.version}</version>
+				</plugin>
+				<!-- A Maven plugin to create archives of your project's sources, classes, dependencies etc. from flexible assembly descriptors. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>${maven-assembly-plugin}</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+    </build>
+</project>

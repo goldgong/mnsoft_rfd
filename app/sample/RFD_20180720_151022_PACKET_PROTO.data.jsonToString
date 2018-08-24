@@ -1,0 +1,193 @@
+vehicleInfo {
+  vehicleId: "Sorento"
+}
+cameraInfo {
+}
+rfd {
+  gps {
+    time: 61015000
+    lat: 13511594
+    lon: 45703274
+    heading: 1050
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -164
+  }
+  lane {
+    type: LN_002
+    pos: 142
+  }
+  rm {
+    type: RM_016
+    x: -118
+    y: 1504
+  }
+  rm {
+    type: RM_016
+    x: -48
+    y: 1416
+  }
+  rm {
+    type: RM_016
+    x: -528
+    y: 2507
+  }
+  rm {
+    type: RM_016
+    x: -191
+    y: 1479
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 61017000
+    lat: 13511584
+    lon: 45703322
+    heading: 1053
+  }
+  rm {
+    type: RM_004
+    x: -57
+    y: 1798
+  }
+  rm {
+    type: RM_016
+    x: -349
+    y: 843
+  }
+  rm {
+    type: RM_016
+    x: -270
+    y: 867
+  }
+  rm {
+    type: RM_016
+    x: -154
+    y: 929
+  }
+  rm {
+    type: RM_016
+    x: 62
+    y: 867
+  }
+  rm {
+    type: RM_016
+    x: 66
+    y: 833
+  }
+  rm {
+    type: RM_016
+    x: -98
+    y: 725
+  }
+}
+rfd {
+  gps {
+    time: 61019000
+    lat: 13511574
+    lon: 45703369
+    heading: 1030
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -181
+  }
+  lane {
+    type: LN_001
+    pos: 150
+  }
+  rm {
+    type: RM_012
+    x: -160
+    y: 1474
+  }
+  ts {
+    type: TS_002
+    x: -735
+    y: 3700
+  }
+}
+rfd {
+  gps {
+    time: 61020000
+    lat: 13511570
+    lon: 45703392
+    heading: 1048
+  }
+  ts {
+    type: TS_002
+    x: -708
+    y: 3537
+  }
+}
+rfd {
+  gps {
+    time: 61022000
+    lat: 13511555
+    lon: 45703432
+    heading: 1254
+  }
+  lane {
+    type: LN_001
+    pos: -139
+  }
+  lane {
+    type: LN_001
+    pos: 47
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 61024000
+    lat: 13511533
+    lon: 45703459
+    heading: 1471
+  }
+  lane {
+    type: LN_007
+    pos: -15
+  }
+  lane {
+    type: LN_007
+    pos: 22
+  }
+}
+rfd {
+  gps {
+    time: 61025000
+    lat: 13511518
+    lon: 45703468
+    heading: 1597
+  }
+  lane {
+    type: LN_001
+    pos: -177
+  }
+  lane {
+    type: LN_001
+    pos: 1
+  }
+}
+rfd {
+  gps {
+    time: 61028000
+    lat: 13511456
+    lon: 45703479
+    heading: 1824
+  }
+  lane {
+  }
+  lane {
+  }
+}

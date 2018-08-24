@@ -1,0 +1,1942 @@
+vehicleInfo {
+  vehicleId: "Sorento"
+}
+cameraInfo {
+}
+rfd {
+  gps {
+    time: 55653000
+    lat: 13511802
+    lon: 45702458
+    heading: 910
+  }
+  rm {
+    type: RM_015
+    x: -78
+    y: 808
+  }
+}
+rfd {
+  gps {
+    time: 55654000
+    lat: 13511801
+    lon: 45702465
+    heading: 788
+  }
+}
+rfd {
+  gps {
+    time: 55655000
+    lat: 13511803
+    lon: 45702471
+    heading: 791
+  }
+  rm {
+    x: -128
+    y: 1932
+  }
+}
+rfd {
+  gps {
+    time: 55656000
+    lat: 13511803
+    lon: 45702475
+    heading: 835
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -198
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 137
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -488
+  }
+  lane {
+    type: LN_001
+    pos: 414
+  }
+  rm {
+    type: RM_012
+    x: -1884
+    y: -7545
+  }
+}
+rfd {
+  gps {
+    time: 55657000
+    lat: 13511803
+    lon: 45702481
+    heading: 867
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -47
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 106
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -483
+  }
+  lane {
+    type: LN_001
+    pos: 364
+  }
+  rm {
+    type: RM_018
+    x: -305
+    y: 1769
+  }
+  rm {
+    x: -45
+    y: 1252
+  }
+  rm {
+    type: RM_013
+    x: 71
+    y: 1017
+  }
+  rm {
+    type: RM_012
+    x: -2779
+    y: -11235
+  }
+}
+rfd {
+  gps {
+    lat: 13511803
+    lon: 45702481
+    heading: 867
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -128
+  }
+  lane {
+    type: LN_001
+    pos: 209
+  }
+  lane {
+    type: LN_007
+    pos: -598
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 320
+  }
+  rm {
+    type: RM_018
+    x: -721
+    y: 1864
+  }
+}
+rfd {
+  gps {
+    time: 55703000
+    lat: 13511784
+    lon: 45702581
+    heading: 1106
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -178
+  }
+  lane {
+    type: LN_001
+    pos: 184
+  }
+  rm {
+    type: RM_012
+    x: -427
+    y: 2075
+  }
+  ts {
+    type: TS_002
+    x: 409
+    y: 3366
+  }
+  ts {
+    type: TS_001
+    x: 298
+    y: 1419
+  }
+  ts {
+    type: TS_003
+    x: 329
+    y: 1533
+  }
+}
+rfd {
+  gps {
+    time: 55704000
+    lat: 13511776
+    lon: 45702608
+    heading: 1121
+  }
+  rm {
+    type: RM_012
+    x: -1784
+    y: 4197
+  }
+  rm {
+    type: RM_012
+    x: -113
+    y: 1064
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+  ts {
+    type: TS_002
+    x: 325
+    y: 2290
+  }
+  ts {
+    type: TS_001
+    x: 298
+    y: 856
+  }
+  ts {
+    type: TS_001
+    x: 213
+    y: 670
+  }
+  ts {
+    type: TS_003
+    x: 252
+    y: 720
+  }
+  ts {
+    type: TS_003
+    x: 243
+    y: 632
+  }
+  ts {
+    type: TS_003
+    x: 253
+    y: 726
+  }
+}
+rfd {
+  gps {
+    time: 55705000
+    lat: 13511766
+    lon: 45702639
+    heading: 1110
+  }
+  ts {
+    type: TS_001
+    x: -373
+    y: 3993
+  }
+  ts {
+    type: TS_002
+    x: 356
+    y: 1677
+  }
+}
+rfd {
+  gps {
+    time: 55706000
+    lat: 13511756
+    lon: 45702670
+    heading: 1112
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_9
+    x: -360
+    y: 3268
+  }
+}
+rfd {
+  gps {
+    time: 55707000
+    lat: 13511746
+    lon: 45702705
+    heading: 1102
+  }
+  rm {
+    type: RM_016
+    x: -293
+    y: 3245
+  }
+  ts {
+    type: TS_002
+    x: 127
+    y: 3443
+  }
+  ts {
+    type: TS_001
+    x: -331
+    y: 2506
+  }
+}
+rfd {
+  gps {
+    lat: 13511746
+    lon: 45702705
+    heading: 1102
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -180
+  }
+  lane {
+    type: LN_002
+    pos: 142
+  }
+  rm {
+    type: RM_017
+    x: -28
+    y: 970
+  }
+  rm {
+    type: RM_016
+    x: -87
+    y: 497
+  }
+  rm {
+    type: RM_016
+    x: 81
+    y: 444
+  }
+  ts {
+    type: TS_001
+    x: 264
+    y: 1857
+  }
+  ts {
+    type: TS_003
+    x: 325
+    y: 2302
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55710000
+    lat: 13511719
+    lon: 45702823
+    heading: 1056
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -187
+  }
+  lane {
+    type: LN_001
+    pos: 171
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55713000
+    lat: 13511691
+    lon: 45702938
+    heading: 1071
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -171
+  }
+  lane {
+    type: LN_001
+    pos: 150
+  }
+  rm {
+    x: -200
+    y: 9268
+  }
+  rm {
+    type: RM_017
+    x: -55
+    y: 1745
+  }
+  rm {
+    type: RM_017
+    x: -43
+    y: 1354
+  }
+}
+rfd {
+  gps {
+    time: 55714000
+    lat: 13511683
+    lon: 45702973
+    heading: 1076
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -179
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 200
+  }
+  lane {
+    type: LN_007
+    pos: -594
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 319
+  }
+  rm {
+    x: -107
+    y: 4085
+  }
+  rm {
+    type: RM_002
+    x: 667
+    y: 4999
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55715000
+    lat: 13511673
+    lon: 45703008
+    heading: 1098
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -180
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 160
+  }
+  rm {
+    type: RM_013
+    x: -36
+    y: 14057
+  }
+  rm {
+    x: -44
+    y: 1758
+  }
+  rm {
+    x: -33
+    y: 1417
+  }
+  rm {
+    x: 469
+    y: 2183
+  }
+  rm {
+    type: RM_007
+    x: -442
+    y: 1820
+  }
+}
+rfd {
+  gps {
+    time: 55718000
+    lat: 13511642
+    lon: 45703109
+    heading: 1065
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -164
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 133
+  }
+  rm {
+    type: RM_013
+    x: -570
+    y: 2424
+  }
+  rm {
+    type: RM_013
+    x: -114
+    y: 2081
+  }
+  rm {
+    type: RM_013
+    x: 295
+    y: 2226
+  }
+  ts {
+    type: TS_001
+    x: 78
+    y: 1959
+  }
+  ts {
+    type: TS_002
+    x: 414
+    y: 2215
+  }
+}
+rfd {
+  gps {
+    time: 55719000
+    lat: 13511635
+    lon: 45703143
+    heading: 1056
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -219
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_016
+    x: 121
+    y: 1551
+  }
+  rm {
+    type: RM_016
+    x: 276
+    y: 1555
+  }
+  rm {
+    type: RM_013
+    x: -331
+    y: 809
+  }
+  rm {
+    type: RM_013
+    x: -48
+    y: 779
+  }
+  rm {
+    type: RM_013
+    x: 246
+    y: 783
+  }
+  ts {
+    type: TS_002
+    x: 397
+    y: 1241
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55720000
+    lat: 13511628
+    lon: 45703175
+    heading: 1057
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -223
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 122
+  }
+  rm {
+    type: RM_001
+    x: -994
+    y: 2421
+  }
+  rm {
+    type: RM_017
+    x: 221
+    y: 1030
+  }
+  rm {
+    type: RM_016
+    x: 176
+    y: 723
+  }
+  rm {
+    type: RM_016
+    x: 282
+    y: 810
+  }
+  rm {
+    type: RM_016
+    x: 208
+    y: 757
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55722000
+    lat: 13511616
+    lon: 45703235
+    heading: 1033
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -209
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 124
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55723000
+    lat: 13511612
+    lon: 45703259
+    heading: 1044
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -212
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 123
+  }
+  rm {
+    type: RM_016
+    x: 125
+    y: 3074
+  }
+  rm {
+    type: RM_017
+    x: 243
+    y: 1735
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55724000
+    lat: 13511609
+    lon: 45703279
+    heading: 1033
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -233
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 122
+  }
+  rm {
+    type: RM_016
+    x: -65
+    y: 2748
+  }
+  rm {
+    type: RM_016
+    x: 346
+    y: 2360
+  }
+  rm {
+    type: RM_016
+    x: 135
+    y: 1617
+  }
+  rm {
+    type: RM_016
+    x: 149
+    y: 1454
+  }
+  rm {
+    type: RM_016
+    x: 280
+    y: 1614
+  }
+  rm {
+    type: RM_016
+    x: 325
+    y: 1524
+  }
+  rm {
+    type: RM_016
+    x: 365
+    y: 1473
+  }
+}
+rfd {
+  gps {
+    time: 55726000
+    lat: 13511605
+    lon: 45703301
+    heading: 1048
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -189
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 104
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -332
+  }
+  lane {
+    type: LN_002
+    pos: 474
+  }
+  rm {
+    type: RM_004
+    x: 343
+    y: 2050
+  }
+  rm {
+    type: RM_016
+    x: -84
+    y: 1305
+  }
+  rm {
+    type: RM_016
+    x: 202
+    y: 1366
+  }
+  rm {
+    type: RM_016
+    x: 333
+    y: 964
+  }
+  rm {
+    type: RM_016
+    x: -120
+    y: 852
+  }
+  rm {
+    type: RM_016
+    x: -58
+    y: 942
+  }
+  rm {
+    type: RM_016
+    x: 24
+    y: 848
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55727000
+    lat: 13511604
+    lon: 45703307
+    heading: 1009
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -184
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 112
+  }
+  rm {
+    type: RM_004
+    x: 307
+    y: 1401
+  }
+  rm {
+    type: RM_016
+    x: 48
+    y: 775
+  }
+  rm {
+    type: RM_016
+    x: 181
+    y: 840
+  }
+  rm {
+    type: RM_016
+    x: 381
+    y: 821
+  }
+  rm {
+    type: RM_016
+    x: -37
+    y: 568
+  }
+  rm {
+    type: RM_016
+    x: 50
+    y: 748
+  }
+  rm {
+    type: RM_016
+    x: 202
+    y: 813
+  }
+  ts {
+    type: TS_002
+    x: -510
+    y: 4562
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55728000
+    lat: 13511604
+    lon: 45703309
+    heading: 1019
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 115
+  }
+  rm {
+    type: RM_016
+    x: -196
+    y: 815
+  }
+  rm {
+    type: RM_004
+    x: 280
+    y: 998
+  }
+  ts {
+    type: TS_002
+    x: -523
+    y: 4615
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55729000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -187
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 118
+  }
+  rm {
+    type: RM_004
+    x: 276
+    y: 840
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55732000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 752
+  }
+  ts {
+    type: TS_002
+    x: -623
+    y: 4825
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55735000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -618
+    y: 4761
+  }
+  ts {
+    type: TS_002
+    x: -502
+    y: 4432
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55738000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -609
+    y: 4690
+  }
+  ts {
+    type: TS_002
+    x: -507
+    y: 4475
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55741000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -608
+    y: 4656
+  }
+  ts {
+    type: TS_002
+    x: -506
+    y: 4468
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55742000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -191
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 752
+  }
+  ts {
+    type: TS_002
+    x: -596
+    y: 4588
+  }
+  ts {
+    type: TS_002
+    x: -508
+    y: 4513
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55743000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -620
+    y: 4743
+  }
+  ts {
+    type: TS_002
+    x: -505
+    y: 4454
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55749000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 268
+    y: 745
+  }
+  ts {
+    type: TS_002
+    x: -614
+    y: 4723
+  }
+  ts {
+    type: TS_002
+    x: -506
+    y: 4405
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55751000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 268
+    y: 745
+  }
+  ts {
+    type: TS_002
+    x: -609
+    y: 4692
+  }
+  ts {
+    type: TS_002
+    x: -508
+    y: 4427
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55753000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -191
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 752
+  }
+  ts {
+    type: TS_002
+    x: -624
+    y: 4748
+  }
+  ts {
+    type: TS_002
+    x: -511
+    y: 4483
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+  ts {
+    type: TS_002
+    x: -1007
+    y: 3150
+  }
+}
+rfd {
+  gps {
+    time: 55754000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -191
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -623
+    y: 4770
+  }
+  ts {
+    type: TS_002
+    x: -509
+    y: 4436
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+  ts {
+    type: TS_002
+    x: -789
+    y: 2182
+  }
+}
+rfd {
+  gps {
+    time: 55755000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -191
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 269
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -622
+    y: 4759
+  }
+  ts {
+    type: TS_002
+    x: -519
+    y: 4546
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55756000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 116
+  }
+  rm {
+    type: RM_004
+    x: 269
+    y: 749
+  }
+  ts {
+    type: TS_002
+    x: -615
+    y: 4708
+  }
+  ts {
+    type: TS_002
+    x: -515
+    y: 4512
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55757000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -191
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 268
+    y: 745
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55758000
+    lat: 13511604
+    lon: 45703309
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -185
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 117
+  }
+  rm {
+    type: RM_004
+    x: 269
+    y: 749
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55802000
+    lat: 13511604
+    lon: 45703309
+    heading: 1023
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -183
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 115
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -535
+  }
+  lane {
+    type: LN_002
+    pos: 452
+  }
+  rm {
+    x: -376
+    y: 915
+  }
+  rm {
+    type: RM_004
+    x: 270
+    y: 749
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55803000
+    lat: 13511604
+    lon: 45703309
+    heading: 1031
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -184
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 115
+  }
+  rm {
+    x: -377
+    y: 915
+  }
+  rm {
+    type: RM_004
+    x: 265
+    y: 732
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55804000
+    lat: 13511601
+    lon: 45703324
+    heading: 1030
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -182
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: 110
+  }
+  rm {
+    x: -42
+    y: 644
+  }
+  rm {
+    type: RM_004
+    x: 269
+    y: 676
+  }
+  rm {
+    type: RM_012
+    x: -421
+    y: 2449
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55807000
+    lat: 13511592
+    lon: 45703379
+    heading: 1014
+  }
+  rm {
+    type: RM_012
+    x: -117
+    y: 1057
+  }
+  ts {
+    type: TS_002
+    x: -451
+    y: 4014
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55808000
+    lat: 13511586
+    lon: 45703405
+    heading: 1021
+  }
+  rm {
+    type: RM_012
+    x: 12882
+    y: 28719
+  }
+  rm {
+    type: RM_012
+    x: -69
+    y: 922
+  }
+  ts {
+    type: TS_002
+    x: -530
+    y: 4679
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55815000
+    lat: 13511563
+    lon: 45703653
+    heading: 912
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -244
+  }
+  lane {
+    type: LN_001
+    pos: 209
+  }
+  rm {
+    type: RM_013
+    x: -486
+    y: 2052
+  }
+  rm {
+    type: RM_013
+    x: -106
+    y: 1908
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55816000
+    lat: 13511563
+    lon: 45703694
+    heading: 914
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -249
+  }
+  lane {
+    type: LN_001
+    pos: 218
+  }
+  rm {
+    type: RM_013
+    x: -432
+    y: 1034
+  }
+  rm {
+    type: RM_013
+    x: -48
+    y: 1015
+  }
+}
+rfd {
+  gps {
+    time: 55817000
+    lat: 13511563
+    lon: 45703736
+    heading: 894
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -239
+  }
+  lane {
+    type: LN_001
+    pos: 226
+  }
+  ts {
+    type: TS_002
+    x: -1330
+    y: 4927
+  }
+}
+rfd {
+  gps {
+    time: 55818000
+    lat: 13511563
+    lon: 45703778
+    heading: 919
+  }
+  lane {
+  }
+  lane {
+  }
+  ts {
+    type: TS_002
+    x: -1602
+    y: 4621
+  }
+  ts {
+    type: TS_002
+    x: -1518
+    y: 4645
+  }
+}
+rfd {
+  gps {
+    time: 55819000
+    lat: 13511563
+    lon: 45703820
+    heading: 853
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -262
+  }
+  lane {
+    type: LN_001
+    pos: 295
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -309
+  }
+  lane {
+    type: LN_001
+    pos: 310
+  }
+  ts {
+    type: TS_002
+    x: 632
+    y: 3559
+  }
+}
+rfd {
+  gps {
+    time: 55820000
+    lat: 13511569
+    lon: 45703862
+    heading: 750
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -268
+  }
+  lane {
+    type: LN_001
+    pos: 294
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -308
+  }
+  lane {
+    type: LN_001
+    pos: 315
+  }
+}
+rfd {
+  gps {
+    time: 55821000
+    lat: 13511577
+    lon: 45703902
+    heading: 690
+  }
+  ts {
+    type: TS_002
+    x: -575
+    y: 3174
+  }
+}
+rfd {
+  gps {
+    time: 55824000
+    lat: 13511621
+    lon: 45704015
+    heading: 597
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -228
+  }
+  lane {
+    type: LN_001
+    pos: 111
+  }
+  rm {
+    x: -466
+    y: 1531
+  }
+}
+rfd {
+  gps {
+    time: 55827000
+    lat: 13511674
+    lon: 45704136
+    heading: 569
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -272
+  }
+  lane {
+    type: LN_001
+    pos: 142
+  }
+  rm {
+    type: RM_017
+    x: -124
+    y: 1965
+  }
+  ts {
+    type: TS_001
+    x: 239
+    y: 2132
+  }
+}
+rfd {
+  gps {
+    time: 55829000
+    lat: 13511717
+    lon: 45704206
+    heading: 531
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -184
+  }
+  lane {
+    type: LN_001
+    pos: 137
+  }
+  ts {
+    type: TS_002
+    x: 127
+    y: 3523
+  }
+}
+rfd {
+  gps {
+    time: 55829000
+    lat: 13511717
+    lon: 45704206
+    heading: 531
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -184
+  }
+  lane {
+    type: LN_001
+    pos: 137
+  }
+  ts {
+    type: TS_002
+    x: 127
+    y: 3523
+  }
+}
+rfd {
+  gps {
+    time: 55830000
+    lat: 13511734
+    lon: 45704232
+    heading: 518
+  }
+  lane {
+    type: LN_002
+    color: LC_001
+    pos: -248
+  }
+  lane {
+    type: LN_001
+    pos: 139
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_9
+    x: -1107
+    y: 3962
+  }
+  ts {
+    type: TS_002
+    x: -205
+    y: 4312
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55832000
+    lat: 13511756
+    lon: 45704271
+    heading: 654
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -161
+  }
+  lane {
+    type: LN_001
+    pos: 146
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_9
+    x: -1110
+    y: 2647
+  }
+  ts {
+    type: TS_002
+    x: -54
+    y: 2627
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55833000
+    lat: 13511761
+    lon: 45704286
+    heading: 854
+  }
+  rm {
+    type: RM_016
+    x: -970
+    y: 3404
+  }
+  rm {
+    type: RM_016
+    x: -992
+    y: 2850
+  }
+  rm {
+    type: RM_016
+    x: -931
+    y: 2970
+  }
+  ts {
+    type: UNKNOWN_ENUM_VALUE_Type_11
+    y: -100
+  }
+}
+rfd {
+  gps {
+    time: 55834000
+    lat: 13511759
+    lon: 45704300
+    heading: 1121
+  }
+}
+rfd {
+  gps {
+    time: 55835000
+    lat: 13511753
+    lon: 45704313
+    heading: 1325
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: -26
+  }
+  lane {
+    type: LN_001
+    color: LC_001
+    pos: 3
+  }
+}
